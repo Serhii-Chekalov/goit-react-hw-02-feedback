@@ -51,11 +51,10 @@ class App extends Component {
             />
           </Section>
         ) : (
-          <Notification message="No feedback given"></Notification>
+          <Notification message="No feedback given" />
         )}
       </div>
     );
   }
 }
-
 export default App;
